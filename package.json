@@ -17,6 +17,7 @@
     "vite": "^4.3.0"
   },
   "dependencies": {
+    "@splidejs/svelte-splide": "^0.2.9",
     "daisyui": "^2.51.6",
     "svelte-routing": "^1.6.0"
   }

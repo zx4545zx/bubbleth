@@ -1,4 +1,5 @@
 import './app.css'
+import '@splidejs/svelte-splide/css';
 import App from './App.svelte'
 
 const app = new App({

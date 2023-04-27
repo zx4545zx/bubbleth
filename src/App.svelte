@@ -24,7 +24,7 @@
       <Navbar />
       <Header />
     </div>
-    <div class="container mx-auto">
+    <div class="container mx-auto h-4/5 sm:h-auto">
       <Route path="event" component={Event} />
       <Route path="review" component={Review} />
       <Route path="food" component={Food} />

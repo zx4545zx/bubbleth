@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="m-auto p-2 relative">
+<div class="m-auto p-0 sm:p-2 relative">
   <div class="absolute text-center w-full font-custom">{title}</div>
   <img src={banner} alt="banner" class="m-auto w-48 sm:w-auto max-w-xs">
 </div>

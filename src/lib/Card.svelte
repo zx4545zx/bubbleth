@@ -5,7 +5,7 @@
 </script>
 
 <div class="relative w-full mt-8">
-  <div class=" absolute w-full -mt-7 sm:-mt-12 lg:-mt-16 xl:-my-24">
+  <div class="frame-img absolute w-full -mt-8 sm:-mt-12 lg:-mt-16 xl:-my-24">
     <img src={frame} alt="frame-img" class="m-auto w-full" />
   </div>
   <img
@@ -19,7 +19,7 @@
     2xl:h-[48rem]"
   />
 </div>
-<div class="container pt-3 pb-16 px-12 text-center">
+<div class="container pt-8 pb-16 px-12 text-center img-bg">
   <p class="p-4">อีเว้นท์มากมายที่น่าติดตาม</p>
   <span
     >อีเว้นท์ที่จะมีกิจกรรมสนุกๆ ให้ลูกค้าได้ร่วมสนุก
@@ -34,11 +34,22 @@
   .img-slide {
     object-fit: cover;
   }
+  .img-bg {
+    background-image: url("../assets/bubble-text.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
   @media (max-width: 640px) {
     .img-slide {
       margin-left: calc(100vw * 0.11);
       height: calc(100vw * 0.5);
       object-fit: cover;
+    }
+  }
+  @media (max-width: 425px) {
+    .frame-img {
+      margin-top: -1.25rem;
     }
   }
 </style>

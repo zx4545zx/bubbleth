@@ -33,8 +33,8 @@
       <Route path="/"><Home /></Route>
     </div>
 
-    <div class="b-nav fixed sm:hidden w-full px-3 bg-black bottom-0">
-      <ul class="flex justify-center items-center gap-8 p-2" style="margin-top: -1rem;">
+    <div class="b-nav fixed sm:hidden w-full px-3 bottom-0 h-[11%]">
+      <ul class="flex justify-center items-center gap-8 p-2 -mt-1">
         <li class="hover:text-slate-900">
           <Link to="highlight">
             <img src={highlight} alt="highlight-icon" class="w-16" />

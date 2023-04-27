@@ -23,7 +23,7 @@
         <div class="relative">
           <div class="relative">
             <div
-              class="absolute top-3 sm:top-1 left-0 w-full h-full"
+              class="absolute top-4 sm:top-1 left-0 w-full h-full"
               style="z-index: -1;"
             >
               <img
@@ -55,7 +55,7 @@
   }
   @media (max-width: 425px) {
     .frame-img {
-      height: 12rem;
+      height: 14rem;
     }
   }
   @media (max-width: 300px) {

@@ -45,7 +45,7 @@
     width: 80%;
     max-width: 65rem;
     object-fit: cover;
-    object-position: 25% 25%;
+    object-position: center;
     overflow: hidden;
   }
   @media (max-width: 500px) {

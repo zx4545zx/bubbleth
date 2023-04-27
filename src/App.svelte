@@ -1,16 +1,15 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Route } from "svelte-routing";
   import Home from "./routes/Home.svelte";
   import About from "./routes/About.svelte";
-  // import Highlight from "./routes/Highlight.svelte";
   import Food from "./routes/Food.svelte";
   import Review from "./routes/Review.svelte";
   import Event from "./routes/Event.svelte";
 
   import Navbar from "./lib/layout/Navbar.svelte";
   import Header from "./lib/Header.svelte";
-  import BottomNavbar from "./lib/layout/BottomNavbar.svelte";
   import Footer from "./lib/layout/Footer.svelte";
+  import BottomNavbar from "./lib/layout/BottomNavbar.svelte";
 
   export let url = "";
 </script>
@@ -27,7 +26,7 @@
       <Route path="food" component={Food} />
       <Route path="highlight" component={Home} />
       <Route path="about" component={About} />
-      <Route path="/"><Home /></Route>
+      <Route path="/" component={Home}></Route>
     </div>
     <Footer />
     <BottomNavbar />

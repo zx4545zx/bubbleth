@@ -12,7 +12,7 @@
   </div>
   <img
     src={url}
-    alt="slimg"
+    alt="card-img"
     class="img-slide mx-auto w-5/6
     sm:h-80 sm:ml-16 sm:w-[85%]
     md:ml-20 md:h-96

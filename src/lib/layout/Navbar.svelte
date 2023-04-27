@@ -14,25 +14,27 @@
     </Link>
   </div>
   <div class="navbar-center sm:hidden">
-    <div class="avatar">
+    <Link class="normal-case text-xl" to="/" alt="logo">
+      <div class="avatar">
         <div class="w-20 rounded-full">
           <img src={logo} alt="logo">  
         </div>
       </div>
+    </Link>
   </div>
   <div class="navbar-end hidden sm:flex">
-    <ul class="flex justify-center items-center gap-8 text-black">
-      <li><Link to="highlight">Highlight</Link></li>
-      <li><Link to="food">Food</Link></li>
-      <li><Link to="review">Review</Link></li>
-      <li><Link to="event">Event</Link></li>
-      <li><Link to="about">About</Link></li>
+    <ul class="flex justify-center items-center gap-8 text-slate-600">
+      <li class="hover:text-slate-900"><Link to="highlight">Highlight</Link></li>
+      <li class="hover:text-slate-900"><Link to="food">Food</Link></li>
+      <li class="hover:text-slate-900"><Link to="review">Review</Link></li>
+      <li class="hover:text-slate-900"><Link to="event">Event</Link></li>
+      <li class="hover:text-slate-900"><Link to="about">About</Link></li>
     </ul>
   </div>
 </div>
 
 <style>
-  .navbar-center ul li:hover {
-    border-bottom: 4px solid lightseagreen;
+  * {
+    font-family: 'Pattaya', sans-serif;
   }
 </style>

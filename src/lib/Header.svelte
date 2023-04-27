@@ -7,7 +7,7 @@
   import event from "../assets/icon/event.png";
 </script>
 
-<div class="flex items-center justify-between px-16 py-6">
+<div class="hidden sm:flex items-center justify-between px-16 py-4">
   <Link to="highlight">
     <img src={highlight} alt="highlight-icon" class="w-24" />
   </Link>

@@ -23,7 +23,7 @@
         <div class="relative">
           <div class="relative">
             <div
-              class="absolute top-2 sm:top-0 left-0 w-full h-full"
+              class="absolute top-3 sm:top-1 left-0 w-full h-full"
               style="z-index: -1;"
             >
               <img
@@ -32,7 +32,7 @@
                 class="slide-img mt-6 sm:mt-9 lg:mt-16 mx-auto h-4/6"
               />
             </div>
-            <img src={frame} alt="frame-img" class="mx-auto" />
+            <img src={frame} alt="frame-img" class="frame-img mx-auto" />
           </div>
         </div>
       </SplideSlide>
@@ -51,6 +51,11 @@
   @media (max-width: 500px) {
     .slide-img {
       margin-top: 1rem;
+    }
+  }
+  @media (max-width: 425px) {
+    .frame-img {
+      height: 12rem;
     }
   }
   @media (max-width: 300px) {

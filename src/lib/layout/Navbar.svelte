@@ -16,7 +16,7 @@
   <div class="navbar-center sm:hidden">
     <Link class="normal-case text-xl" to="/" alt="logo">
       <div class="avatar">
-        <div class="w-20 rounded-full">
+        <div class=" w-28 rounded-full">
           <img src={logo} alt="logo">  
         </div>
       </div>

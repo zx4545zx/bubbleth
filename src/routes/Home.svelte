@@ -9,8 +9,8 @@
 <Slide />
 <Banner title="Take a Tour" />
 
-<main class="h-80 sm:h-screen pt-4">
-  <div class="container mx-auto overflow-scroll sm:overflow-visible h-full">
+<main class="h-3/5 sm:h-screen pt-4">
+  <div class="container mx-auto overflow-y-scroll sm:overflow-y-visible h-full">
     <Card {img} />
     <Card {img} />
     <Card {img} />
@@ -21,14 +21,18 @@
 <style>
   @media (max-width: 640px) {
     ::-webkit-scrollbar {
-      -webkit-appearance: none;
-      width: 7px;
+      width: 10px;
     }
-
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
     ::-webkit-scrollbar-thumb {
-      border-radius: 4px;
-      background-color: rgba(0, 0, 0, 0.5);
-      box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+      background: lightgray;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
     }
   }
 </style>

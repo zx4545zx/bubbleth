@@ -10,11 +10,12 @@
   import Navbar from "./lib/layout/Navbar.svelte";
   import Header from "./lib/Header.svelte";
   import BottomNavbar from "./lib/layout/BottomNavbar.svelte";
+  import Footer from "./lib/layout/Footer.svelte";
 
   export let url = "";
 </script>
 
-<main class="h-screen md:h-auto overflow-hidden sm:overflow-visible">
+<main class="h-screen sm:h-auto overflow-hidden sm:overflow-visible">
   <Router {url}>
     <div class="container mx-auto">
       <Navbar />
@@ -28,13 +29,12 @@
       <Route path="about" component={About} />
       <Route path="/"><Home /></Route>
     </div>
-
+    <Footer />
     <BottomNavbar />
   </Router>
 </main>
 
 <style>
-  
   main {
     background-image: url("./assets/bg-xl.jpeg");
     background-repeat: no-repeat;

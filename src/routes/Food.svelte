@@ -5,21 +5,14 @@
 
   import { slideImages } from "../data/foodSlide";
   import { landingImages } from "../data/foodLanding";
+  import Content from "../lib/Content.svelte";
 </script>
 
 <Slide images={slideImages}/>
 <Banner title="Food" />
 
-<main class="h-3/5 sm:h-screen">
-  <div class="container mx-auto overflow-y-scroll sm:overflow-y-visible h-full">
-    {#each landingImages as img}
-      <Card url={img} />
-    {/each}
-  </div>
-</main>
-
-<main>
-</main>
-
-<style>
-</style>
+<Content>
+  {#each landingImages as img}
+    <Card url={img} />
+  {/each}
+</Content>

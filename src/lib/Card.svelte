@@ -6,7 +6,7 @@
   export let des = "";
 </script>
 
-<div class="relative w-full mt-5">
+<div class="relative w-full mt-8 sm:mt-24">
   <div class="frame-img absolute w-full -mt-8 sm:-mt-12 lg:-mt-16 xl:-my-24">
     <img src={frame} alt="frame-img" class="m-auto w-full" />
   </div>
@@ -21,6 +21,7 @@
     2xl:h-[48rem]"
   />
 </div>
+
 <div class="container pt-8 pb-16 px-12 text-center img-bg">
   <p class="p-4">{title}</p>
   <span>{des} &nbsp;</span>

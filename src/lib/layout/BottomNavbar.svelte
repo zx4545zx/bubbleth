@@ -8,22 +8,22 @@
 
 <div class="b-nav fixed block sm:hidden w-full px-3 bottom-0 h-[11%]">
   <ul class="flex justify-center items-center gap-8 p-2 -mt-1 h-full">
-    <li class="hover:text-slate-900">
+    <li>
       <Link to="highlight">
         <img src={highlight} alt="highlight-icon" class="w-16" />
       </Link>
     </li>
-    <li class="hover:text-slate-900">
+    <li>
       <Link to="food">
         <img src={food} alt="food-icon" class="w-16" />
       </Link>
     </li>
-    <li class="hover:text-slate-900">
+    <li>
       <Link to="review">
         <img src={review} alt="review-icon" class="w-16" />
       </Link>
     </li>
-    <li class="hover:text-slate-900">
+    <li>
       <Link to="event">
         <img src={event} alt="event-icon" class="w-16" />
       </Link>
@@ -33,7 +33,7 @@
 
 <style>
   * {
-    font-family: 'Pattaya', sans-serif;
+    font-family: "Pattaya", sans-serif;
   }
   .b-nav {
     background-image: url("../../assets/bg-nav.jpeg");

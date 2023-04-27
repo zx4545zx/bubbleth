@@ -16,7 +16,7 @@
   export let images = [defaultImg];
 </script>
 
-<div class="container m-auto">
+<div class="container mx-auto -mt-8 sm:mt-auto">
   <Splide {options}>
     {#each images as img}
       <SplideSlide>

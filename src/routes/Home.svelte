@@ -2,11 +2,13 @@
   import Slide from "../lib/Slide.svelte";
   import Banner from "../lib/Banner.svelte";
   import Card from "../lib/Card.svelte";
-
   import img from "../assets/img.jpeg";
+
+  import { images } from "../data/home";
+
 </script>
 
-<Slide />
+<Slide {images}/>
 <Banner title="Take a Tour" />
 
 <main class="h-3/5 sm:h-screen pt-4">

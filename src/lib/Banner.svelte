@@ -17,7 +17,7 @@
   }
   @media (max-width: 640px) {
     .font-custom {
-      top: 30%;
+      top: 25%;
     }
   }
 </style>

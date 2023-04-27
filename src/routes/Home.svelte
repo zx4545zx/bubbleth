@@ -7,7 +7,7 @@
 </script>
 
 <Slide />
-<Banner title="Home" />
+<Banner title="Take a Tour" />
 
 <main class="h-80 sm:h-screen pt-4">
   <div class="container mx-auto overflow-scroll sm:overflow-visible h-full">

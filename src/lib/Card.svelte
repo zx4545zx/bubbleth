@@ -28,10 +28,12 @@
 </div>
 
 <style>
+  * {
+    font-family: 'Pattaya', sans-serif;
+  }
   .img-slide {
     object-fit: cover;
   }
-
   @media (max-width: 640px) {
     .img-slide {
       margin-left: calc(100vw * 0.11);

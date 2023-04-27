@@ -10,7 +10,7 @@
 <Slide images={slideImages}/>
 <Banner title="Food" />
 
-<main class="h-3/5 sm:h-screen pt-4">
+<main class="h-3/5 sm:h-screen">
   <div class="container mx-auto overflow-y-scroll sm:overflow-y-visible h-full">
     {#each landingImages as img}
       <Card url={img} />

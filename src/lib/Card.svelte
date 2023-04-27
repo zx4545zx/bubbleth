@@ -1,7 +1,9 @@
 <script>
   import frame from "../assets/pic-frame.png";
 
-  export let img;
+  export let url = "";
+  export let title = "";
+  export let des = "";
 </script>
 
 <div class="relative w-full mt-8">
@@ -9,27 +11,24 @@
     <img src={frame} alt="frame-img" class="m-auto w-full" />
   </div>
   <img
-    src={img}
+    src={url}
     alt="slimg"
-    class="img-slide mx-auto w-5/6 
-    sm:h-80 sm:ml-16 sm:w-[85%] 
-    md:ml-20 md:h-96 
-    lg:ml-28 lg:h-[33rem] 
-    xl:h-[40rem] xl:ml-36 
+    class="img-slide mx-auto w-5/6
+    sm:h-80 sm:ml-16 sm:w-[85%]
+    md:ml-20 md:h-96
+    lg:ml-28 lg:h-[33rem]
+    xl:h-[40rem] xl:ml-36
     2xl:h-[48rem]"
   />
 </div>
 <div class="container pt-8 pb-16 px-12 text-center img-bg">
-  <p class="p-4">อีเว้นท์มากมายที่น่าติดตาม</p>
-  <span
-    >อีเว้นท์ที่จะมีกิจกรรมสนุกๆ ให้ลูกค้าได้ร่วมสนุก
-    อีกทั้งยังมีโปรโมชั่นอีกมากมายให้ติดตาม &nbsp;</span
-  >
+  <p class="p-4">{title}</p>
+  <span>{des} &nbsp;</span>
 </div>
 
 <style>
   * {
-    font-family: 'Pattaya', sans-serif;
+    font-family: "Pattaya", sans-serif;
   }
   .img-slide {
     object-fit: cover;

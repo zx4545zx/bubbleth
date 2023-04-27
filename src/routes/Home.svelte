@@ -2,21 +2,19 @@
   import Slide from "../lib/Slide.svelte";
   import Banner from "../lib/Banner.svelte";
   import Card from "../lib/Card.svelte";
-  import img from "../assets/img.jpeg";
 
-  import { images } from "../data/home";
-
+  import { slideImages } from "../data/homeSlide";
+  import { landingImages } from "../data/homeLanding";
 </script>
 
-<Slide {images}/>
+<Slide images={slideImages} />
 <Banner title="Take a Tour" />
 
 <main class="h-3/5 sm:h-screen pt-4">
   <div class="container mx-auto overflow-y-scroll sm:overflow-y-visible h-full">
-    <Card {img} />
-    <Card {img} />
-    <Card {img} />
-    <Card {img} />
+    {#each landingImages as img}
+      <Card url={img.url} title={img.title} des={img.des} />
+    {/each}
   </div>
 </main>
 

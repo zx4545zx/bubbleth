@@ -2,11 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  height: 100dvh;
+
+  background: rgb(206, 240, 228);
+  background: -moz-linear-gradient(
+    275deg,
+    rgba(206, 240, 228, 1) 0%,
+    rgba(222, 236, 245, 1) 50%,
+    rgba(255, 233, 254, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    275deg,
+    rgba(206, 240, 228, 1) 0%,
+    rgba(222, 236, 245, 1) 50%,
+    rgba(255, 233, 254, 1) 100%
+  );
+  background: linear-gradient(
+    275deg,
+    rgba(206, 240, 228, 1) 0%,
+    rgba(222, 236, 245, 1) 50%,
+    rgba(255, 233, 254, 1) 100%
+  );
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="#cef0e4",endColorstr="#ffe9fe",GradientType=1)";
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }

@@ -23,9 +23,11 @@
 </div>
 
 <div class="container pt-8 pb-16 px-12 text-center img-bg">
-  <p class="p-4">{title}</p>
-  <span>{des} &nbsp;</span>
-</div>
+    {#if title != "" && des != ""}
+    <p class="p-4">{title}</p>
+    <span>{des} &nbsp;</span>
+    {/if}
+  </div>  
 
 <style>
   * {

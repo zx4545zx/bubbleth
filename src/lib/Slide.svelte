@@ -60,7 +60,7 @@
   }
   @media (max-width: 300px) {
     .slide-img {
-      margin-top: 0.5rem;
+      margin-top: 1.5rem;
     }
   }
 </style>

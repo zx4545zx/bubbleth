@@ -14,7 +14,7 @@
   export let url = "";
 </script>
 
-<main class="h-screen sm:h-auto overflow-hidden sm:overflow-visible">
+<main>
   <Router {url}>
     <div class="container mx-auto">
       <Navbar />
@@ -34,7 +34,7 @@
 </main>
 
 <style>
-  main {
+  /* main {
     background-image: url("./assets/bg-xl.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,5 +45,5 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-  }
+  } */
 </style>

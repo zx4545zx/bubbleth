@@ -28,7 +28,7 @@
 
 </script>
 
-<div class="b-nav fixed block sm:hidden w-full px-3 bottom-0 h-[8%]">
+<div class="b-nav fixed sm:hidden w-full px-3 bottom-0 h-[8%]">
   <ul class="flex justify-center items-center gap-8 p-2 h-full">
     {#each nav as n, i}
       <!-- svelte-ignore a11y-click-events-have-key-events -->

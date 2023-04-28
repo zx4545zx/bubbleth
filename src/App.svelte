@@ -14,7 +14,7 @@
   export let url = "";
 </script>
 
-<main>
+<main class="w-100 overflow-x-hidden">
   <Router {url}>
     <div class="container mx-auto">
       <Navbar />
